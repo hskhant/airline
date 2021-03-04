@@ -1,4 +1,6 @@
-<?php
+<?php 
+
+   //team2
 	include './include/header2.php';
     $user_session_id=$_SESSION['id'];
     if(!isset($_SESSION['cart']) || count($_SESSION['cart'])==0){
